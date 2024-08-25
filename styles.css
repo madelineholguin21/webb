@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center left;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    position: relative;
+}
+
+.menu-box {
+    border: 20px solid green;
+    padding: 20px;
+    background-color: white;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+     width: 300px;
+    height: 500px;
+}
+
+.menu-content {
+    background-color: goldenrod;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center above;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: pink;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: purple;
+}
